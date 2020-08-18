@@ -14,14 +14,18 @@ import UserGreeting from "./components/UserGreeting"
 import NameList from "./components/NameList"
 import StyleSheet from './components/Stylesheet'
 import Inline from './components/Inline'
-import './appStyles.css'
-import styles from './appStyles.modules.css'
+// import './appStyles.css'
+// import styles from './appStyles.module.css'
+import Form from './components/Form'
+import LifecycleA from "./components/LifecycleA"
 
 function App() {
   return (
     <div className="App">
-      <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
+      <LifecycleA/>
+      {/* <Form/> */}
+      {/* <h1 className='error'>Error</h1> */}
+      {/* <h1 className={styles.success}>Success</h1> */}
       {/* <StyleSheet primary={true}/> */}
       {/* <Inline/> */}
       {/* <NameList/> */}
